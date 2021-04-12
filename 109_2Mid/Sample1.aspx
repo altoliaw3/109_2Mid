@@ -18,9 +18,9 @@
                     <asp:TextBox ID="tb_Pass" runat="server" Height="15px" Width="200px" TextMode="Password"></asp:TextBox>
             </div>            
             <div>   <asp:Label runat="server" Text="興趣(單選)" Font-Size="X-Large"></asp:Label>&nbsp;&nbsp;
-                    <asp:RadioButton ID="rb_Ch1" runat="server" Text="看書" Font-Size="X-Large" Checked="True" GroupName="Interesting"/>
-                    <asp:RadioButton ID="rb_Ch2" runat="server" Text="打電動" Font-Size="X-Large" GroupName="Interesting"/>
-                    <asp:RadioButton ID="rb_Ch3" runat="server" Text="其他" Font-Size="X-Large"  GroupName="Interesting"/>                    
+                    <asp:RadioButton ID="rb_Ch1" runat="server" Text="看書" Font-Size="X-Large" Checked="True" GroupName="rbg_Interest"/>
+                    <asp:RadioButton ID="rb_Ch2" runat="server" Text="打電動" Font-Size="X-Large" GroupName="rbg_Interest"/>
+                    <asp:RadioButton ID="rb_Ch3" runat="server" Text="其他" Font-Size="X-Large"  GroupName="rbg_Interest"/>                    
             </div>
             <div>
                     <asp:Label runat="server" Text="其他連結" Font-Size="X-Large"></asp:Label>&nbsp;&nbsp;
